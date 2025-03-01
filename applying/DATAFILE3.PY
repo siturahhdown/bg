@@ -1,5 +1,5 @@
 while True:
-    x = "Made by Titas"
+    x = "Made by Myslef"
     name = input("What is your current goverment name? ")
     print(f"Your goverment name is {name}")
     print("What is your date of birth year?")

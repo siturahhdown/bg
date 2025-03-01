@@ -9,6 +9,7 @@ mpDraw = mp.solutions.drawing_utils
 
 pTime = 0
 cTime = 0
+
 while True:
     success, img = cap.read()
     imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -30,5 +31,6 @@ while True:
     cv2.imshow("Image", img)
     if cv2.waitKey(1) & 0xFF == ord('q'):  # Corrected line
         break
+
 cap.release()
 cv2.destroyAllWindows()

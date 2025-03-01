@@ -1,0 +1,29 @@
+class Person:
+    def __init__(self, name, age, last_name, weight):
+        self.age = age
+        self.name = name
+        self.last_name = last_name
+        self.weight = weight
+
+    def walk(self):
+        print("Walking")
+    def run(self):
+        print("Running")
+    
+user = Person("Titas", 16, "Kazlauskas", 70)
+print(user.name)
+user.walk()
+
+
+class Bottle:
+    def __init__(self, color, volume, type):
+        self.color = color
+        self.volume = volume
+        self.type = type
+        
+    def drink(self):
+        print("Drinking")
+    def fill(self):
+        print("Filling")
+    def recycling(self):
+        print("Recycling")
